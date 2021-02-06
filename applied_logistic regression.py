@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 from logistic_function import *
 
-data = pd.read_csv('C:\\Users\\User\\Desktop\\projects\\git\\breast-cancer-wisconsin.csv')
+data = pd.read_csv('C:\\Users\\User\\Desktop\\projects\\breast-cancer-wisconsin.csv')
 #additional way
 #x=data.iloc[:375,1:10]
 x1=data.iloc[:375,1]
